@@ -48,8 +48,10 @@ a:hover {
 }
 
 h1 {
-    color: #FDA50F;
-    text-shadow: 4px 4px 0px rgba(0,0,0,0.5);
+    background: -webkit-linear-gradient(#FDA50F, #DFC98A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.15);
     padding: 10px;
 }
 
