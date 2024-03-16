@@ -1,23 +1,29 @@
 var aboutMeChange = false;
 var cvChange = false;
+var firstLoad = true;
 
 function loadInitialContent() {
     // reset flags
     aboutMeChange = false;
     cvChange = false;
 
-     // Reset button classes
-    var aboutmeButton = document.getElementById("aboutme");
-    if (aboutmeButton.classList.contains("button-on")) {
-        aboutmeButton.classList.remove("button-on");
-    }
-    aboutmeButton.classList.add("button-off");
+     // Reset button classes if not first load
+    if (!firstLoad) {
+        var aboutmeButton = document.getElementById("aboutme");
+        if (aboutmeButton.classList.contains("button-on")) {
+            aboutmeButton.classList.remove("button-on");
+        }
+        aboutmeButton.classList.add("button-off");
 
-    var cvButton = document.getElementById("cv");
-    if (cvButton.classList.contains("button-on")) {
-        cvButton.classList.remove("button-on");
+        var cvButton = document.getElementById("cv");
+        if (cvButton.classList.contains("button-on")) {
+            cvButton.classList.remove("button-on");
+        }
+        cvButton.classList.add("button-off");
+
+        // turn it false
+        firstLoad = false;
     }
-    cvButton.classList.add("button-off");
 
     // load initial content
     var xhttp = new XMLHttpRequest();
