@@ -85,7 +85,7 @@
                 <a href="https://www.github.com/w1zh"><i class="bi bi-github" style="float: left"></i></a>
             </div>
             <div class="col">
-                <a href="https://se.linkedin.com/in/w1zh/en?trk=people-guest_people_search-card"><i class="bi bi-linkedin" style="float: left"></i></a>
+                <a href="https://se.linkedin.com/in/w1zh"><i class="bi bi-linkedin" style="float: left"></i></a>
             </div>
         </div>
     </div>
