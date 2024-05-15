@@ -33,10 +33,10 @@
             <div class="col" style="margin-bottom: 2vh; margin-top: 2vh"><h3><b><u>Erfarenhet</u></b></h3></div>
         </div>
         <div class="row">
-            <div class="col"><h4><u><a href="https://www.safflepk.se">Säffle PK &bull; Sommar 2022</a></u></h4></div>
+            <div class="col"><h4><u><a href="https://www.safflepk.se">Säffle PK &bull; Augusti 2022</a></u></h4></div>
         </div>
         <div class="row">
-            <div class="col"><p>I två veckor mellan Juli och Augusti jobbade jag ideellt på heltid för Säffle Pistolskytteklubb med att byta tak och riva väggar på en gammal skjuthall. Under praktiken lärde jag mig vikten av planering och uthållighet och fick även färdigheter i snickeri och bygge.</p></div>
+            <div class="col"><p>I två veckor i Augusti jobbade jag ideellt på heltid för Säffle Pistolskytteklubb med att byta tak och riva väggar på en gammal skjuthall. Under praktiken lärde jag mig vikten av planering och uthållighet och fick även färdigheter i snickeri och bygge.</p></div>
         </div>
         <div class="row" style="padding-bottom: 80px">
             <div class="col d-flex align-items-end">
