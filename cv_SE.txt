@@ -6,10 +6,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col"><h4><u><a href="https://www.regionvarmland.se/folkhogskolor/kyrkeruds-folkhogskola">Allmän kurs &bull; Kyrkerud Folkhögskola &bull; Januari 2024 - nuvarande</a></u></h4></div>
+            <div class="col"><h4><u><a href="https://www.regionvarmland.se/folkhogskolor/kyrkeruds-folkhogskola">Allmän kurs &bull; Kyrkerud Folkhögskola &bull; Januari 2024 - Juni 2024</a></u></h4></div>
         </div>
         <div class="row">
-            <div class="col"><p>Januari 2024 återvände jag till Kyrkerud för att beta av det sista inför eventuella universitetsstudier. Jag förväntas bli klar Juni 2024.</p></div>
+            <div class="col"><p>Januari 2024 återvände jag till Kyrkerud för att beta av det sista inför eventuella universitetsstudier. Jag blev klar med studierna 2024 med enbart samhällskunskap kvar att komplettera.</p></div>
         </div>
         <div class="row">
             <div class="col"><h4><u><a href="https://pll.harvard.edu/course/cs50-introduction-computer-science">CS50 &bull; December 2023 - Maj 2024</a></u></h4></div> 
