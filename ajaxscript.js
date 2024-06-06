@@ -1,6 +1,27 @@
 var aboutMeChange = false;
 var cvChange = false;
 var firstLoad = true;
+var isEnglish = false;
+
+
+document.getElementById("langButton").addEventListener("click", toggleLanguage);
+
+function toggleLanguage() {
+    isEnglish = !isEnglish;
+    enButton = '<button type="button" class="button-off"><i class="flag flag-se"></i>SE</button>';
+    seButton = '<button type="button" class="button-off"><i class="flag flag-us"></i>EN</button>';
+    document.getElementById("langButton").innerHTML = isEnglish ? enButton : seButton;
+    
+    if (aboutMeChange == true) {
+        aboutMeChange = false;
+        loadAboutme();
+    } else if (cvChange == true) {
+        cvChange = false;
+        loadCV();
+    } else {
+        loadInitialContent();
+    }
+}
 
 function loadInitialContent() {
     // reset flags
@@ -25,6 +46,8 @@ function loadInitialContent() {
         firstLoad = false;
     }
 
+    var fileName = isEnglish ? "initial_EN.txt" : "initial_SE.txt";
+
     // load initial content
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
@@ -34,7 +57,7 @@ function loadInitialContent() {
             console.error("Error loading initial.txt");
         }
     };
-    xhttp.open("GET", "initial.txt", true);
+    xhttp.open("GET", fileName, true);
     xhttp.send();
 }
 
@@ -47,6 +70,8 @@ function loadAboutme() {
 
     // reset flags
     cvChange = false;
+
+    var fileName = isEnglish ? "aboutme_EN.txt" : "aboutme_SE.txt";
 
     // load aboutme content
     var xhttp = new XMLHttpRequest();
@@ -67,7 +92,7 @@ function loadAboutme() {
             console.error("Error loading aboutme.txt");
         } 
     };
-    xhttp.open("GET", "aboutme.txt", true);
+    xhttp.open("GET", fileName, true);
     xhttp.send();
 }
 
@@ -77,6 +102,9 @@ function loadCV() {
         loadInitialContent();
         return;
     }
+
+    // check if its in english
+    var fileName = isEnglish ? "cv_EN.txt" : "cv_SE.txt";
 
     // reset flags
     aboutMeChange = false;
@@ -100,6 +128,6 @@ function loadCV() {
             console.error("Error loading cv.txt");
         } 
     };
-    xhttp.open("GET", "cv.txt", true);
+    xhttp.open("GET", fileName, true);
     xhttp.send();
 }

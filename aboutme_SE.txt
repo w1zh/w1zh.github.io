@@ -2,13 +2,12 @@
     <div class="container div-sizing">
         <div class="row">
             <div class="col-sm" style="margin-top: 2vh">
-                <h3><b><u>Programmering/</u></b></h3>
-                <h3><b><u>Webbutveckling</u></b></h3>
+                <h3><b><u>Om mig</u></b></h3>
             </div>
         </div>
         <div class="row">
-            <p>Behöver ni en naturligt nyfiken och driven arbetare? Någon med fallenhet för problemlösning och analytiskt tänkande? Någon som kan bidra med kreativa lösningar?</p>
-            <p>Om noggrannhet, självständighet och lättlärdhet är viktiga egenskaper för er, tvivla inte på att höra av er!</p>
+            <p>Jag heter William. Jag är 30 år och bor i centrala Säffle. På fritiden sysslar jag med egna programmeringsprojekt, musikskapande och annat fix. Jag spenderar mycket tid med att lära mig nya saker, och föredrar att laga och förbättra diverse prylar i hemmet över att ersätta dem.</p>
+            <p>Som person är jag självgående, driftig och nyfiken. Jag tycker om att testa nya saker och att utforska i det som intresserar mig. Matlagning är ett stort intresse för mig, eftersom det kombinerar ett rikt urval av saker att prova med nya färdigheter att erhålla.</p>
         </div>
         <div class="row" style="padding-bottom: 80px">
             <div class="col d-flex align-items-end">
