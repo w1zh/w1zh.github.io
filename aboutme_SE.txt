@@ -6,8 +6,8 @@
             </div>
         </div>
         <div class="row">
-            <p>Jag heter William. Jag är 30 år och bor i centrala Säffle. På fritiden sysslar jag med egna programmeringsprojekt, musikskapande och annat fix. Jag spenderar mycket tid med att lära mig nya saker, och föredrar att laga och förbättra diverse prylar i hemmet över att ersätta dem.</p>
-            <p>Som person är jag självgående, driftig och nyfiken. Jag tycker om att testa nya saker och att utforska i det som intresserar mig. Matlagning är ett stort intresse för mig, eftersom det kombinerar ett rikt urval av saker att prova med nya färdigheter att erhålla.</p>
+            <p>Jag heter William. Jag är 30 år och bor i centrala Säffle. På fritiden sysslar jag med egna programmeringsprojekt, musikskapande och annat fix. Jag spenderar mycket tid med att lära mig nya saker, och gillar även att själv knåpa med diverse prylar i hemmet.</p>
+            <p>Som person är jag självständig, flitig och nyfiken. Jag tycker om att testa nya saker och att utforska i det som intresserar mig. Matlagning är ett stort intresse för mig, eftersom det kombinerar ett rikt urval av nya erfarenheter med möjlighet att erhålla nya färdigheter.</p>
         </div>
         <div class="row" style="padding-bottom: 80px">
             <div class="col d-flex align-items-end">
